@@ -1,0 +1,120 @@
+Combination of ee_pi53_m10000_gy0p5_St_jet0_chi0.txt  ee_pi53_m10000_gy0p5_St_jet0_chi1.txt  ee_pi53_m10000_gy0p5_St_jet0_chi2.txt  ee_pi53_m10000_gy0p5_St_jet1_chi0.txt  ee_pi53_m10000_gy0p5_St_jet1_chi1.txt  ee_pi53_m10000_gy0p5_St_jet1_chi2.txt  ee_pi53_m10000_gy0p5_St_jet2_chi0.txt  ee_pi53_m10000_gy0p5_St_jet2_chi1.txt  ee_pi53_m10000_gy0p5_St_jet2_chi2.txt  ee_pi53_m10000_gy0p5_St_jet3_chi0.txt  ee_pi53_m10000_gy0p5_St_jet3_chi1.txt  ee_pi53_m10000_gy0p5_St_jet3_chi2.txt
+imax 12 number of bins
+jmax 6 number of processes minus 1
+kmax 10 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes data_obs  ch1       ./data_obs.root St_jet0_chi0
+shapes dy        ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes signal    ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes st        ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes top       ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes ww        ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes wz        ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes zz        ch1       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet0_chi0 St_jet0_chi0$SYSTEMATIC
+shapes data_obs  ch10      ./data_obs.root St_jet3_chi0
+shapes dy        ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes signal    ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes st        ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes top       ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes ww        ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes wz        ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes zz        ch10      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet3_chi0 St_jet3_chi0$SYSTEMATIC
+shapes data_obs  ch11      ./data_obs.root St_jet3_chi1
+shapes dy        ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes signal    ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes st        ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes top       ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes ww        ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes wz        ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes zz        ch11      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet3_chi1 St_jet3_chi1$SYSTEMATIC
+shapes data_obs  ch12      ./data_obs.root St_jet3_chi2
+shapes dy        ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes signal    ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes st        ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes top       ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes ww        ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes wz        ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes zz        ch12      /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet3_chi2 St_jet3_chi2$SYSTEMATIC
+shapes data_obs  ch2       ./data_obs.root St_jet0_chi1
+shapes dy        ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes signal    ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes st        ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes top       ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes ww        ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes wz        ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes zz        ch2       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet0_chi1 St_jet0_chi1$SYSTEMATIC
+shapes data_obs  ch3       ./data_obs.root St_jet0_chi2
+shapes dy        ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes signal    ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes st        ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes top       ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes ww        ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes wz        ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes zz        ch3       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet0_chi2 St_jet0_chi2$SYSTEMATIC
+shapes data_obs  ch4       ./data_obs.root St_jet1_chi0
+shapes dy        ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes signal    ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes st        ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes top       ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes ww        ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes wz        ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes zz        ch4       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet1_chi0 St_jet1_chi0$SYSTEMATIC
+shapes data_obs  ch5       ./data_obs.root St_jet1_chi1
+shapes dy        ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes signal    ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes st        ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes top       ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes ww        ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes wz        ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes zz        ch5       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet1_chi1 St_jet1_chi1$SYSTEMATIC
+shapes data_obs  ch6       ./data_obs.root St_jet1_chi2
+shapes dy        ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes signal    ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes st        ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes top       ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes ww        ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes wz        ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes zz        ch6       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet1_chi2 St_jet1_chi2$SYSTEMATIC
+shapes data_obs  ch7       ./data_obs.root St_jet2_chi0
+shapes dy        ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes signal    ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes st        ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes top       ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes ww        ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes wz        ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes zz        ch7       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet2_chi0 St_jet2_chi0$SYSTEMATIC
+shapes data_obs  ch8       ./data_obs.root St_jet2_chi1
+shapes dy        ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes signal    ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes st        ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes top       ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes ww        ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes wz        ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes zz        ch8       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet2_chi1 St_jet2_chi1$SYSTEMATIC
+shapes data_obs  ch9       ./data_obs.root St_jet2_chi2
+shapes dy        ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_DYtoll.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes signal    ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/signalName St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes st        ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ST.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes top       ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_TTBAR.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes ww        ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WW.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes wz        ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_WZ.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+shapes zz        ch9       /mnt/ceph/home/gaglijt1/NJL_allRootFiles_wCuts_v2/NJL_BG_ZZ.root St_jet2_chi2 St_jet2_chi2$SYSTEMATIC
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1    ch2    ch3    ch4    ch5    ch6    ch7    ch8    ch9    ch10   ch11   ch12 
+observation  -1     -1     -1     -1     -1     -1     -1     -1     -1     -1     -1     -1   
+----------------------------------------------------------------------------------------------------------------------------------
+bin                             ch1     ch1     ch1     ch1     ch1     ch1     ch1     ch2     ch2     ch2     ch2     ch2     ch2     ch2     ch3     ch3     ch3     ch3     ch3     ch3     ch3     ch4     ch4     ch4     ch4     ch4     ch4     ch4     ch5     ch5     ch5     ch5     ch5     ch5     ch5     ch6     ch6     ch6     ch6     ch6     ch6     ch6     ch7     ch7     ch7     ch7     ch7     ch7     ch7     ch8     ch8     ch8     ch8     ch8     ch8     ch8     ch9     ch9     ch9     ch9     ch9     ch9     ch9     ch10    ch10    ch10    ch10    ch10    ch10    ch10    ch11    ch11    ch11    ch11    ch11    ch11    ch11    ch12    ch12    ch12    ch12    ch12    ch12    ch12  
+process                         signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz      signal  top     st      ww      zz      dy      wz    
+process                         0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6       0       1       2       3       4       5       6     
+rate                            -1      -1      0       -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1      -1      -1      0       -1      -1      -1      -1    
+----------------------------------------------------------------------------------------------------------------------------------
+_JER                    lnN     1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017   1.001   1.017   1.017   1.017   1.017   1.017   1.017 
+_JES                    lnN     1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009   1.005   1.009   1.009   1.009   1.009   1.009   1.009 
+_PDF                    lnN     1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028   1.028 
+_PU                     lnN     1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01    1.002   1.01    1.01    1.01    1.01    1.01    1.01  
+_Trigger                lnN     1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014   1.01    1.014   1.014   1.014   1.014   1.014   1.014 
+_eleIdEff               lnN     1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003   1.013   1.003   1.003   1.003   1.003   1.003   1.003 
+_eleRecoEff             lnN     1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03    1.03  
+_eleResol               lnN     1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053   1.002   1.053   1.053   1.053   1.053   1.053   1.053 
+_eleScale               lnN     1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025   1.015   1.025   1.025   1.025   1.025   1.025   1.025 
+_lumi                   lnN     1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016   1.016 
