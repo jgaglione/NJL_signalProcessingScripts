@@ -1,5 +1,5 @@
-#Guide for Signal Processing at ACCRE
-###jethro.t.gaglione@vanderbilt.edu
+# Guide for Signal Processing at ACCRE
+### jethro.t.gaglione@vanderbilt.edu
 
 
 Note: These instructions are under the assumption that signal events in the Delphes ROOT format have been produced.
